@@ -1,0 +1,33 @@
+# Enable rewrite engine
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^includes/ - [F]
+</IfModule>
+
+# Set character encoding to UTF-8
+<IfModule mod_charset.c>
+    AddCharset UTF-8 .php
+</IfModule>
+
+# Set PHP configuration
+<IfModule mod_php.c>
+    php_value memory_limit 128M
+    php_value max_execution_time 30
+    php_value default_charset utf-8
+</IfModule>
+
+# Enable GZIP compression
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript
+</IfModule>
+
+# Cache headers
+<FilesMatch "\.(jpg|jpeg|png|gif|css|js|ico)$">
+    Header set Cache-Control "max-age=31536000, public"
+</FilesMatch>
+
+# Disable directory listing
+Options -Indexes
+
+# Set default files
+DirectoryIndex index.php index.html
