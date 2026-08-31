@@ -6,7 +6,7 @@
 ?>
 
 <!-- CONFERENCE DETAILS -->
-<section id="details" class="section-dark">
+<section id="details" class="section-daark">
   <div class="wrap">
 
     <div class="section-head center" style="margin-bottom:48px;">
