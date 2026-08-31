@@ -102,29 +102,30 @@ $tracks = array(
     ),
     array(
         'number' => '04',
-        'title' => 'Cloud, IoT & Network Security',
+        'title' => 'Secure Infrastructure & IoT',
         'topics' => array(
-            'AI for Securing Cloud Infrastructure',
-            'IoT Security using Anomaly Detection',
-            'ML for Network Traffic Analysis'
+            'AI-Driven Security for Edge, Cloud & IoT',
+            'AI in Critical Infrastructure Security',
+            'Smart Grid / Smart City Cybersecurity'
         )
     ),
     array(
         'number' => '05',
-        'title' => 'Privacy & Data Protection',
+        'title' => 'Trustworthy & Ethical AI',
         'topics' => array(
-            'Federated Learning & Distributed Privacy',
-            'Differential Privacy & Cryptography',
-            'Data Anonymization & GDPR Compliance'
+            'Bias & Fairness in AI for Security',
+            'Secure Federated Learning',
+            'Privacy-Preserving AI Models',
+            'Policy Implications of AI in Cybersecurity'
         )
     ),
     array(
         'number' => '06',
-        'title' => 'Emerging Technologies & Ethics',
+        'title' => 'Domain-Specific Applications',
         'topics' => array(
-            'AI Security in Blockchain & Web3',
-            'Responsible AI & Explainability (XAI)',
-            'Cybersecurity Skills & Workforce Dev.'
+            'AI Security in Healthcare, Finance & Education',
+            'Transportation & Autonomous Vehicles',
+            'Cyber Risk Analytics using Big Data & AI'
         )
     )
 );
