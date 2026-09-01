@@ -339,16 +339,26 @@ nav {
 
 .hero h1{ 
     color:#111111;
-    font-size:clamp(2.5rem, 7vw, 6.5rem);
+    font-size:clamp(2rem, 6vw, 6.5rem);
     font-weight: 600;
-    letter-spacing:-3px;
-    line-height: .95;
+    letter-spacing:-2px;
+    line-height: 1;
     font-family: "Cormorant Garamond", serif;
+    word-spacing: 0.1em;
+}
+
+@media (max-width: 640px) {
+  .hero h1 {
+    font-size: clamp(1.8rem, 5.5vw, 3.2rem);
+    letter-spacing: -1px;
+    line-height: 1.1;
+  }
 }
 
 @media (max-width: 480px) {
   .hero h1 {
-    letter-spacing: -1px;
+    font-size: 1.8rem;
+    letter-spacing: -0.5px;
   }
 }
 
@@ -418,10 +428,17 @@ nav {
   flex-wrap: wrap;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .hero-ctas {
     gap: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-ctas {
+    gap: 10px;
     flex-direction: column;
+    width: 100%;
   }
 }
 
@@ -1526,8 +1543,10 @@ section {
 /* Sponsor Grid */
 .sponsor-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 28px;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 @media (max-width: 1024px) {
@@ -1711,6 +1730,18 @@ section {
 @media (max-width: 480px) {
   .contact-grid {
     gap: 28px;
+  }
+}
+
+.contact-grid > div:last-child {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+@media (max-width: 768px) {
+  .contact-grid > div:last-child {
+    grid-template-columns: 1fr;
   }
 }
 
