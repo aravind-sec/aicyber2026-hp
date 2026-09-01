@@ -45,7 +45,7 @@ $sponsors = array(
     ),
     array(
         'name' => 'IEEE Madras Section',
-        'url' => 'https://ieeemadras.org.in',
+        'url' => 'https://ieeemadras.org/about/',
         'image' => 'images/IEEE_MS.png'
     ),
     array(
@@ -62,11 +62,6 @@ $sponsors = array(
         'name' => 'IEEE Circuits & Systems Society Madras Chapter',
         'url' => 'https://ieee-cas.org',
         'image' => 'images/CAS.png'
-    ),
-    array(
-        'name' => 'Department of CSE (Cyber Security), SAEC',
-        'url' => 'https://www.saec.ac.in/cse-cyber-security.php',
-        'image' => 'images/SAEC.png'
     )
 );
 
