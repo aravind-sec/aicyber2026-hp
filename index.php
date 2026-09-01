@@ -54,7 +54,7 @@ require_once 'includes/helpers.php';
   <?php include 'includes/venue.php'; ?>
 
   <!-- SPONSORS -->
-  <?php include 'includes/sponsors.php'; ?>
+  <?php include 'includes/sponsors.php'; ?> 
 
   <!-- COMMITTEE -->
   <?php include 'includes/committee.php'; ?>
